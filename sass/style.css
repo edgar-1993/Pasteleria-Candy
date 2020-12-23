@@ -1,0 +1,409 @@
+/*tipografias*/
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  color: #f64f59;
+}
+
+h2 {
+  font-family: "montserrat", sans-serif;
+}
+
+h5 {
+  text-align: center;
+}
+
+p {
+  font-family: "montserrat", sans-serif;
+  font-size: 22px;
+}
+
+.secciones ul li a {
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+}
+
+/*home*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #f8e1e3;
+}
+
+.menu {
+  background-color: #f64f59;
+}
+
+.container p a {
+  text-decoration: none;
+  color: #f64f59;
+}
+
+.divespacios {
+  margin-top: 6%;
+}
+
+.bienvenido h1 {
+  font-size: 60px;
+}
+
+.divespacios2 {
+  margin-top: 3%;
+}
+
+.imagenes1 img {
+  width: 500px;
+  height: 600px;
+  width: 100%;
+}
+
+.tortas {
+  width: 100%;
+}
+
+.tortas2 {
+  width: 100%;
+  border-radius: 2%;
+}
+
+@media (min-width: 768px) {
+  .tortas {
+    width: 100%;
+    height: 700px;
+  }
+}
+
+nav a img {
+  height: 75px;
+  width: 90px;
+}
+
+.dona1 {
+  border-radius: 2%;
+}
+
+.dona2 {
+  border-radius: 2%;
+}
+
+.buttonend button span a {
+  color: #f64f59;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.buttonend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  background-color: #79CBCA;
+  border: none;
+  color: #f64f59;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: "Dancing Script", cursive;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.t-efectos {
+  opacity: 0.5;
+}
+
+.t-efectos:hover {
+  opacity: 1.0;
+}
+
+/*Nosotros*/
+.reposteria {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.reposteria {
+  overflow: hidden;
+}
+
+.reposteria img {
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  z-index: 0;
+}
+
+.reposteria img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: opacity(80%);
+          filter: opacity(80%);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/*Productos*/
+.card-body ul {
+  font-size: 20px;
+  font-family: "montserrat",sans-serif;
+  text-align: center;
+}
+
+.card-body ul li {
+  list-style: none;
+  font-family: 'Lobster', cursive;
+}
+
+.cartas-sombras {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.cartas-sombras:hover {
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(214, 29, 23, 0.47);
+}
+
+.card-img-top {
+  background-color: #79CBCA;
+}
+
+.card-body {
+  background-color: #79CBCA;
+}
+
+.fotos img {
+  width: 270px;
+  height: 210px;
+  padding: 5px;
+}
+
+.fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.fotos2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.fotos2 img {
+  -webkit-transition: all 5s;
+  transition: all 5s;
+  -webkit-transform: skewY(5deg);
+          transform: skewY(5deg);
+}
+
+.foto1 {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content;
+      grid-template-columns: -webkit-min-content;
+      grid-template-columns: min-content;
+}
+
+.foto2 {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content;
+      grid-template-columns: -webkit-min-content;
+      grid-template-columns: min-content;
+}
+
+.foto3 {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content;
+      grid-template-columns: -webkit-min-content;
+      grid-template-columns: min-content;
+}
+
+.foto4 {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content;
+      grid-template-columns: -webkit-min-content;
+      grid-template-columns: min-content;
+}
+
+.foto5 {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content;
+      grid-template-columns: -webkit-min-content;
+      grid-template-columns: min-content;
+}
+
+.foto6 {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content;
+      grid-template-columns: -webkit-min-content;
+      grid-template-columns: min-content;
+}
+
+.foto7 {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content;
+      grid-template-columns: -webkit-min-content;
+      grid-template-columns: min-content;
+}
+
+.foto8 {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content;
+      grid-template-columns: -webkit-min-content;
+      grid-template-columns: min-content;
+}
+
+/*Servicios*/
+.Servicios img {
+  background-color: #79CBCA;
+}
+
+.card-p {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.card-p:hover {
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(214, 29, 23, 0.47);
+}
+
+.card-p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.servicios-efecto {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  border-radius: 5%;
+}
+
+.servicios-efecto:hover {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+/*Contacto*/
+.horarios {
+  font-family: "montserrat", sans-serif;
+}
+
+.datos-persona span {
+  background-color: #79CBCA;
+}
+
+/*pie pagina*/
+.pie {
+  position: relative;
+  padding-top: 20px;
+  padding: 50px;
+  background-color: #f64f59;
+  margin-top: 20%;
+}
+
+.pie p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 8%;
+}
+
+.redes-sociales img {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.redes-sociales img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+/*# sourceMappingURL=style.css.map */
